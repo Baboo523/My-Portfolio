@@ -1,0 +1,88 @@
+ul
+{
+    margin-top: 0px;
+    word-spacing: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+a:hover
+{
+    color:blue;
+}
+a
+{
+    text-decoration: none;
+}
+li
+{
+    display:inline;
+}
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container 
+{
+    width: 100%;
+    padding: 2rem;
+}
+.container h1 
+{
+    text-align: center;
+    margin: 1rem;
+}
+.skills 
+{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.skills .web-dev,.react-dev 
+{
+    box-shadow: 2px 2px 2px #555;
+    width: 40%;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+#Main
+{
+    height: 50px;
+    background-color:#eee7e7;
+    height: 90px;
+}
+#Image
+{
+    display: inline-block;
+    margin-left: 10% ;
+    margin-top: 2px;
+}
+h1
+{
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+#Navbar
+{
+    float: right;
+    height: 100px;
+    margin-right: 120px;
+    margin-top:30px;
+}
+.react-dev,.web-dev
+{
+    border:2px solid black;
+    border-radius: 20px;
+}
+.react-dev:hover
+{
+    border-color: greenyellow;
+}
+.web-dev:hover
+{
+    border-color: greenyellow
+}
