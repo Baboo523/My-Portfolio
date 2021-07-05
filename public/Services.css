@@ -27,6 +27,8 @@ li
 {
     width: 100%;
     padding: 2rem;
+    cursor:pointer; 
+    transform: 0.5s;
 }
 .container h1 
 {
@@ -42,11 +44,29 @@ li
 }
 .skills .web-dev,.react-dev 
 {
-    box-shadow: 2px 2px 2px #555;
+    /* box-shadow: 2px 2px 2px #555; */
     width: 40%;
     padding: 2rem;
     text-align: center;
     margin: 1rem;
+}
+.web-dev
+{
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+.web-dev:hover
+{
+    transform:translateY(-10px);
+}
+.react-dev
+{
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+.react-dev:hover
+{
+    transform:translateY(-10px);
 }
 #Main
 {
@@ -73,16 +93,16 @@ h1
     margin-right: 120px;
     margin-top:30px;
 }
-.react-dev,.web-dev
+/* .react-dev,.web-dev
 {
     border:2px solid black;
     border-radius: 20px;
-}
-.react-dev:hover
+} */
+/* .react-dev:hover
 {
     border-color: greenyellow;
 }
 .web-dev:hover
 {
     border-color: greenyellow
-}
+} */

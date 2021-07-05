@@ -20,14 +20,22 @@ li
 {
     margin-top: 60px;
     width: 90%;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     text-align: center;
     margin-right:120px;
     margin-left: 80px;
-    border: 1px solid;
+    /* border: 1px solid; */
     padding: 10px;
-    box-shadow: 3px 3px 3 whitesmoke;
+    /* box-shadow: 3px 3px 3 whitesmoke; */
     padding-bottom: 50px;
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    cursor:pointer; 
+    transform: 0.5s;
+}
+.hi:hover
+{
+    transform:translateY(-10px);
 }
 progress
 {
@@ -70,10 +78,10 @@ progress
     margin-right: 120px;
     margin-top:30px;
 }
-.hi:hover
+/* .hi:hover
 {
     border-color: chartreuse;
-}
+} */
 h1,b,center
 {
     font-family:cursive;

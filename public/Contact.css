@@ -26,11 +26,12 @@ li
     width: 300px;
     display: inline-block;
     border-radius: 20px;
-    border: 2px solid whitesmoke;
+    /* border: 2px solid whitesmoke; */
     box-shadow: 2px 2px;
     padding-left: 40px;
     padding-bottom: 20px;
     font-size: 20px;
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
 }
 .phone 
 {
@@ -42,6 +43,7 @@ li
     margin-left: 50px;
     margin-right: 50px;
     font-size: 20px;
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
 }
 .email 
 {
@@ -53,6 +55,7 @@ li
     margin-left: 200px;
     margin-bottom: 50px;
     font-size: 20px;
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
 }
 
 .hello 
@@ -73,12 +76,10 @@ h1
     display: block;
     margin-left: 19px;
     margin-right: auto;
-    border-radius: 100%;
-    border:1px solid red;
+    /* border-radius: 80%; */
 }
 #Main
 {
-    background-color:#eee7e7;
     height: 90px;
     margin-right: -7px;
     margin-left: -7px;
@@ -97,14 +98,14 @@ h1
     margin-right: 120px;
     margin-top:30px;
 }
-.main1
+/* .main1
 {
     display: block;
     margin-right: auto;
     margin-top:20px;
     border-radius: 10px;
-}
-.box:hover
+} */
+/* .box:hover
 {
     border-color: black;
 }
@@ -115,9 +116,35 @@ h1
 .email:hover
 {
     border-color: black;
+} */
+.box:hover
+{
+    transform:translateY(-10px);
+}
+.email:hover
+{
+    transform:translateY(-10px);
+}
+.phone:hover
+{
+    transform:translateY(-10px);
 }
 .round
 {
     margin-right: 50px;
     margin-left: 600px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

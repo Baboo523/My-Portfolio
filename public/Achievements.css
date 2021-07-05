@@ -22,12 +22,6 @@ li
 {
     display:inline;
 }
-.style
-{
-    border-radius: 20px;
-    border: 1px solid #555;
-    box-shadow: 2px 2px;
-}
 .aa
 {
     font-family: cursive;
@@ -37,10 +31,37 @@ li
 {
     margin-left: 20px;
     margin-right: 20px;
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    cursor:pointer; 
+    transform: 0.5s;
 }
 .hi
 {
-    margin-left:20px
+    margin-left:20px;
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    cursor:pointer; 
+    transform: 0.5s;
+}
+.cc
+{
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    cursor:pointer; 
+    transform: 0.5s;
+}
+.cc:hover
+{
+    transform:translateY(-10px);
+}
+.hi:hover
+{
+    transform:translateY(-10px);
+}
+.bb:hover
+{
+    transform:translateY(-10px); 
 }
 #Main
 {
@@ -63,16 +84,4 @@ li
     height: 100px;
     margin-right: 120px;
     margin-top:30px;
-}
-.hi:hover
-{
-    height: 10px;
-}
-/* img:hover
-{
-    transform: scale(0.9);
-} */
-.style:hover
-{
-    transform: scale(1.0);
 }

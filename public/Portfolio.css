@@ -1,0 +1,135 @@
+h1
+{
+    font-family:cursive;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left:250px;
+}
+.Login
+{
+    border-radius: 20px;
+    box-shadow: 2px 2px;
+    width: 400px;
+    height: 400px;
+    margin-left: 3%;
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    cursor:pointer; 
+    transform: 0.5s;
+    margin-bottom: 20px;
+}
+.Periodic
+{
+    border-radius: 20px;
+    box-shadow: 2px 2px;
+    width: 400px;
+    height: 400px;
+    margin-left: 3%;
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    cursor:pointer; 
+    transform: 0.5s;
+    margin-bottom: 20px;
+}
+.Facebook
+{
+    border-radius: 20px;
+    box-shadow: 2px 2px;
+    width: 400px;
+    height: 400px;
+    margin-left: 3%;
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    cursor:pointer; 
+    transform: 0.5s;
+    margin-bottom: 20px;
+
+}
+a:hover
+{
+    color:blue;
+}
+a
+{
+    text-decoration:none;
+}
+* 
+{
+    margin: 0px;
+    padding: 0px;
+}
+li 
+{
+    display: inline;
+}
+ul 
+{
+    margin-top: 0px;
+    word-spacing: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#Main 
+{
+    height: 50px;
+    background-color: #eee7e7;
+    height: 90px;
+}
+#Logo 
+{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 2px;
+}
+#Navbar 
+{
+    float: right;
+    height: 100px;
+    margin-right: 120px;
+    margin-top: 30px;
+}
+.Facebook:hover
+{
+    transform:translateY(-10px);
+}
+.Login:hover
+{
+    transform:translateY(-10px);
+}
+.Periodic:hover
+{
+    transform:translateY(-10px);
+}
+
+/* .Facebook.Login,.Periodic
+{
+    margin-bottom: 20px;
+} */
+
+
+
+
+
+
+
+.button 
+{
+    margin-left: 500px;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 10px 10px 10px 10px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 20px;
+    margin-top: 200px;
+
+  }
+.button:hover
+{
+    background-color: green;
+}
